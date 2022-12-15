@@ -1,3 +1,140 @@
+@font-face {
+  font-family: 'EquitanSans';
+  src: url('./fonts/EquitanSans-Italic.woff2') format('woff2'),
+      url('./fonts/EquitanSans-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'EquitanSans';
+  src: url('./fonts/EquitanSans-Bold.woff2') format('woff2'),
+      url('./fonts/EquitanSans-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'EquitanSans';
+  src: url('./fonts/EquitanSans-BlackItalic.woff2') format('woff2'),
+      url('./fonts/EquitanSans-BlackItalic.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'EquitanSans';
+  src: url('./fonts/EquitanSans-Light.woff2') format('woff2'),
+      url('./fonts/EquitanSans-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'EquitanSans';
+  src: url('./fonts/EquitanSans-ExtraLight.woff2') format('woff2'),
+      url('./fonts/EquitanSans-ExtraLight.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'EquitanSans';
+  src: url('./fonts/EquitanSans-SemiBoldItalic.woff2') format('woff2'),
+      url('./fonts/EquitanSans-SemiBoldItalic.woff') format('woff');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'EquitanSans';
+  src: url('./fonts/EquitanSans-SemiBold.woff2') format('woff2'),
+      url('./fonts/EquitanSans-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'EquitanSans';
+  src: url('./fonts/EquitanSans-LightItalic.woff2') format('woff2'),
+      url('./fonts/EquitanSans-LightItalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'EquitanSans';
+  src: url('./fonts/EquitanSans-BoldItalic.woff2') format('woff2'),
+      url('./fonts/EquitanSans-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'EquitanSans';
+  src: url('./fonts/EquitanSans-ExtraLightItalic.woff2') format('woff2'),
+      url('./fonts/EquitanSans-ExtraLightItalic.woff') format('woff');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'EquitanSans';
+  src: url('./fonts/EquitanSans-Black.woff2') format('woff2'),
+      url('./fonts/EquitanSans-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'EquitanSans';
+  src: url('./fonts/EquitanSans-Thin.woff2') format('woff2'),
+      url('./fonts/EquitanSans-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'EquitanSans';
+  src: url('./fonts/EquitanSans-ThinItalic.woff2') format('woff2'),
+      url('./fonts/EquitanSans-ThinItalic.woff') format('woff');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'EquitanSans';
+  src: url('./fonts/EquitanSans-Regular.woff2') format('woff2'),
+      url('./fonts/EquitanSans-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Faster One';
+  src: url('./fonts/FasterOne-Regular.woff2') format('woff2'),
+      url('./fonts/FasterOne-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

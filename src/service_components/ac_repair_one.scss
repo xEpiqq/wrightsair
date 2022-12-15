@@ -1,0 +1,1280 @@
+.ac_repair_one {
+    position: relative;
+    width: 100%;
+    height: 556vh;
+    overflow-y: hidden;
+
+}
+
+.ac_repair_one_banner {
+    background-image: url("../images/ac_banner.png");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    width: 100%;
+    height: 40vh;
+    margin-top: -8%;
+}
+
+.ac_repair_one_ac {
+    position: absolute;
+    z-index: 1;
+    top: 1.5%;
+    right: 10%;
+    width: 13%;
+    display: flex;
+}
+
+.ac_repair_one_title {
+    margin-top: 2.5%;
+    display: flex;
+    padding-left: 11.25%;
+    width: auto;
+    justify-content: flex-start;
+    h1 {
+        font-size: 3.5rem;    
+        font-family: 'EquitanSans';
+        font-weight: 400;
+        padding: 0;
+        margin: 0;
+        color: rgb(41, 41, 41);
+    }
+}
+
+.ac_repair_one_main {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 6%;
+
+}
+
+.ac_repair_one_main_left {
+    padding-left: 11.25%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+
+    h1 {
+        font-family: 'EquitanSans';
+        font-size: 2.8rem;
+        margin: 0;
+        padding: 0;
+    }
+    p {
+        font-family: 'EquitanSans';
+        font-size: 1.8rem;
+        font-weight: 200;
+        margin: 0;
+        padding: 0;
+        margin-top: 1.75%;
+    }
+    span {
+        color: #FF9901;
+    }
+}
+
+.ac_repair_one_main_right {
+    display: flex;
+    align-items: center;
+    width: 35%;
+    margin-left: 10%;
+    img {
+        width: 68%;
+    }
+}
+
+.ac_repair_one_mid_div {
+    display: flex;
+    width: 100%;
+    height: 9%;
+    margin-top: 10%;
+}
+
+.ac_repair_one_mid_pics {
+    position: relative;
+    display: flex;
+    width: 55%;
+    height: 23vh;
+    background: linear-gradient(180deg, #4E4E4E 0%, #2E2E2E 100%);
+    box-shadow: 7px 7px 4px rgba(0, 0, 0, 0.25);
+}
+
+.ac_repair_one_mid_pic1 {
+    position: absolute;
+    bottom: -33%;
+    width: 18%;
+    left: 12.5%;
+
+}
+
+.ac_repair_one_mid_pic2 {
+    position: absolute;
+    bottom: -39%;
+    width: 27%;
+    left: 36%;
+}
+
+.ac_repair_one_mid_pic3 {
+    position: absolute;
+    bottom: -33%;
+    width: 25%;
+    left: 68%;
+}
+
+.ac_repair_one_mid_right {
+    padding-top: .5%;
+    width: 45%;
+    height: 100%;
+    display: flex; 
+    flex-direction: column;
+    h2 {
+        text-align: center;
+        margin: 0;
+        font-family: 'EquitanSans';
+        font-size: 2.3rem;
+        font-style: italic;
+
+    }
+    h3 {
+        text-align: center;
+        margin: 0;
+        font-family: 'EquitanSans';
+        font-size: 2.3rem;
+        font-weight: 200;
+    }
+}
+
+.ac_repair_schedule_button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    button {
+        background-color: #FF9F01;
+        border: none;
+        color: white;
+        font-family: 'EquitanSans';
+        font-size: 2rem;
+        font-weight: 700;
+        padding-top: .5%;
+        padding-bottom: .5%;
+        padding-left: 5%;
+        padding-right: 5%;
+        border-radius: .5rem;
+        filter: drop-shadow(0px 8px 0px #FFB335);
+        &:hover {
+            background-color: rgb(254, 165, 22);
+            cursor: pointer;
+        }
+     }
+}
+
+.extra_white_space {
+    width: 100%;
+    height: 20vh;
+    background-color: white;
+}
+
+.ac_repair_one_bottom {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 120vh;
+    background-color: white;
+    background-image: url("../images/light_ray_bg.svg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    font-family: 'EquitanSans';
+    align-items: center;
+    margin-top: 20rem;
+}
+
+.ac_repair_one_bottom_top {
+    position: absolute;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 20%;
+    align-items: flex-start;
+    h1 {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 1.2%;
+        font-size: 2.5rem;
+
+    }
+    p {
+        margin: 0;
+        padding: 0;
+        font-size: 1.8rem;
+        span {
+            color: #FF8C00;
+        }
+    }
+}
+
+
+
+.ac_repair_one_list {
+    margin-bottom: 1%;
+    width: 80%;
+    margin-left: 3.5%;
+    display: flex;
+    flex-direction: row;
+    height: 15%;
+    align-items: center;
+    gap: 3%;
+    img {
+        width: 3.3%;
+        margin-top: -3%;
+        margin-left: 0%;
+    }
+}
+
+.ac_repair_one_text {
+    display: flex;
+    flex-direction: row;
+    font-family: 'EquitanSans';
+    font-size: 1.8rem;
+    font-weight: 500;
+    span {
+        font-weight: 900;
+    }
+}
+
+.ac_repair_one_very_bottom {
+    display: flex;
+    flex-direction: column;
+    height: 200vh;
+    background-color: white;
+}
+
+.is_it_time {
+    gap: 5.5%;
+    margin-top: 6%;
+    width: 100%;
+    height: 18%;
+    background: #2E2E2E;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    h1 {
+        color: white;
+        text-align: center;
+    }
+}
+
+.is_it_time_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    button {
+        background-color: #FF9F01;
+        border: none;
+        color: white;
+        font-family: 'EquitanSans';
+        font-size: 2rem;
+        font-weight: 700;
+        padding-top: .5%;
+        padding-bottom: .5%;
+        padding-left: 10%;
+        padding-right: 10%;
+        border-radius: .5rem;
+        filter: drop-shadow(0px 8px 0px #FFB335);
+        &:hover {
+            background-color: rgb(254, 165, 22);
+            cursor: pointer;
+        }
+     }
+}
+
+.guarantee_box {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.ac_services {
+    margin-top: 3%;
+    gap: 5%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 70%;
+    background: linear-gradient(180deg, #2a2a2a 0%, #161616 100%);
+    align-items: center;
+    justify-content: center;
+    .ac_services_title {
+        font-family: 'EquitanSans';
+        font-size: 3rem;
+        letter-spacing: 0.1em;
+        background: linear-gradient(179.25deg, #FF9F01 20.3%, #FFA91B 99.35%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+        margin: 0;
+        padding: 0;
+        margin-top: 2.5%;
+    }
+}
+
+.service_flex {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.ac_service_cards_box {
+    margin-top: -2.5%;
+}
+
+////////////////////////////
+/////////HEADER TEXT////////
+////////////////////////////
+@media (max-width: 1180px) {
+    .ac_repair_one_main_right {
+        justify-content: center;
+        margin: 0;
+        img {
+            width: 80%;
+        }
+    }
+    .ac_repair_one_main_left {
+        width: 55%;
+        h1 {
+            font-size: 2.3rem;
+        }
+        p {
+            font-family: 'EquitanSans';
+            font-size: 1.8rem;
+            font-weight: 200;
+            margin: 0;
+            padding: 0;
+            margin-top: 1.75%;
+        }
+}
+}
+
+@media (max-width: 1050px) {
+    .ac_repair_one_main_left {
+        padding-left: 7%;
+        p {
+            font-size: 1.5rem;
+
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    .ac_repair_one_main_left {
+        padding-top: 0;
+        margin-top: 0;
+        padding-left: 5.5%;
+        h1 {
+            font-size: 2rem;
+        }
+        p {
+            font-size: 1.2rem;
+
+        }
+    }
+    .ac_repair_one_main_right {
+        padding-left: 2%;
+    }
+}
+
+@media (max-width: 750px) {
+    .ac_repair_one_main_left {
+        padding-left: 5.5%;
+        h1 {
+            font-size: 1.7rem;
+        }
+        p {
+            font-size: .95rem;
+
+        }
+    }
+    .ac_repair_one_main_right {
+        padding-left: 2%;
+    }
+}
+////////////////////////////
+/////////PAGE TITLE/////////
+////////////////////////////
+@media (max-width: 1250px) {
+    .ac_repair_one_title {
+        h1 {
+            font-size: 3rem;
+        }
+    }
+}
+
+@media (max-width: 1050px) {
+    .ac_repair_one_title {
+        padding-left: 7%;        
+        h1 {
+            font-size: 3rem;
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    .ac_repair_one_title {
+        padding-left: 5.5%;        
+        h1 {
+            font-size: 2.5rem;
+        }
+    }
+    .ac_repair_one_main {
+        margin-top: 3%;
+    }
+}
+
+@media (max-width: 900px) {
+    .ac_repair_one_title {
+        h1 {
+            font-size: 2rem;
+        }
+    }
+}
+////////////////////////////
+//////ac_repair_main////////
+////////////////////////////
+
+@media (max-width: 630px) {
+    .ac_repair_one_main {
+        flex-direction: column-reverse;
+    }
+    .ac_repair_one_title {
+        margin-top: 6%;
+        margin-bottom: 5%;
+        padding: 0;
+        align-items: center;
+        justify-content: center;
+        h1 {
+            
+        }
+    }
+    .ac_repair_one_main_right {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 5%;
+        img {
+            width: 12rem;
+        }
+    }
+    .ac_repair_one_main_left {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        p {
+            width: 75%;
+            text-align: center;
+        }
+    }
+}
+
+@media (max-width: 460px) {
+    .ac_repair_one_main_left {
+        h1 {
+            font-size: 1.3rem;
+        }
+        p {
+            font-size: 1.2rem;
+            margin-top: 5%;
+        }
+    }
+}
+
+@media (max-width: 420px) {
+    .ac_repair_one_title {
+        margin-bottom: 6%;
+        h1 {
+            font-size: 1.75rem;
+        }
+    }
+    .ac_repair_one_main_right {
+        img {
+            margin-bottom: 2%;
+        }
+    }
+}
+
+
+
+@media (max-width: 400px) {
+    .ac_repair_one_title {
+        margin-bottom: 0%;
+        h1 {
+            font-size: 1.75rem;
+        }
+    }
+}
+
+@media (max-width: 360px) {
+    .ac_repair_one_title {
+        margin-bottom: 0%;
+        h1 {
+            font-size: 1.5rem;
+        }
+    }
+}
+
+@media (max-width: 350px) {
+    .ac_repair_one_main_left {
+        h1 {
+            font-size: 1.1rem;
+        }
+        p {
+            font-size: 1rem;
+        }
+    }
+}
+
+@media (max-width: 310px) {
+    .ac_repair_one_title {
+        margin-bottom: 0%;
+        h1 {
+            font-size: 1.4rem;
+        }
+    }
+}
+
+@media (max-width: 305px) {
+    .ac_repair_one_main_left {
+        h1 {
+            font-size: 1rem;
+        }
+    }
+}
+
+////////////////////////////
+////////ac top pic//////////
+////////////////////////////
+
+@media (max-width: 1250px) {
+    .ac_repair_one_ac {
+        top: 2%;
+        right: 10%;
+        width: 13%;
+    }
+}
+
+@media (max-width: 1150px) {
+    .ac_repair_one_ac {
+        top: 3%;
+        right: 10%;
+        width: 13%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .ac_repair_one_ac {
+        top: 4%;
+        right: 10%;
+        width: 16%;
+    }
+}
+
+@media (max-width: 900px) {
+    .ac_repair_one_ac {
+        top: 1%;
+        right: 10%;
+        width: 13%;
+    }
+    .ac_repair_one_banner {
+        width: 100%;
+        height: 26vh;
+        margin-top: -8%;
+    }
+}
+
+@media (max-width: 800px) {
+    .ac_repair_one_ac {
+        top: 2%;
+        right: 10%;
+        width: 13%;
+    }
+    .ac_repair_one_banner {
+        width: 100%;
+        height: 26vh;
+        margin-top: -8%;
+    }
+}
+
+@media (max-width: 700px) {
+    .ac_repair_one_ac {
+        top: 2%;
+        right: 10%;
+        width: 15%;
+    }
+}
+
+@media (max-width: 630px) {
+    .ac_repair_one_ac {
+        top: .5%;
+        right: 2%;
+    }
+}
+
+@media (max-width: 560px) {
+    .ac_repair_one_ac {
+        top: .6%;
+        right: 2%;
+        width: 5.5rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .ac_repair_one_ac {
+        top: .85%;
+        right: 2%;
+        width: 5rem;
+    }
+}
+
+/////////////////////////
+/////////////////////////
+/////////////////////////
+@media (max-width: 1100px ) {
+    .ac_repair_one_mid_pics {
+        height: 21vh;
+    }
+    .ac_repair_one_mid_right {
+        h2 {
+            font-size: 2rem;
+        }
+        h3 {
+            font-size: 2rem;
+        }
+    }
+    .ac_repair_schedule_button {
+        margin-top: 3.5%;
+        button {
+            font-size: 1.75rem;
+        }
+    }
+}
+
+@media (max-width: 1000px ) {
+    .ac_repair_one_mid_pics {
+        height: 19vh;
+    }
+}
+
+@media (max-width: 950px) {
+    .ac_repair_one_mid_right {
+        h2 {
+            font-size: 1.75rem;
+        }
+        h3 {
+            font-size: 1.75rem;
+        }
+    }
+    .ac_repair_schedule_button {
+        margin-top: 3.5%;
+        button {
+            font-size: 1.75rem;
+        }
+    }
+}
+
+@media (max-width: 865px) {
+    .ac_repair_one_mid_pics {
+        height: 7.5em;
+        .ac_repair_one_mid_pic1 {
+            bottom: -20%;
+        }        
+        .ac_repair_one_mid_pic2 {
+            bottom: -26%;
+        }        
+        .ac_repair_one_mid_pic3 {
+            bottom: -20%;
+        }
+    }
+
+}
+
+@media (max-width: 800px) {
+    .ac_repair_one_mid_right {
+        h2 {
+            font-size: 1.5rem;
+        }
+        h3 {
+            font-size: 1.5rem;
+        }
+    }
+    .ac_repair_schedule_button {
+        margin-top: 3.5%;
+        button {
+            font-size: 1.4rem;
+        }
+    }
+}
+
+@media (max-width: 750px) {
+    .ac_repair_one_mid_pics {
+        height: 6.5em;
+        .ac_repair_one_mid_pic1 {
+            bottom: -20%;
+        }        
+        .ac_repair_one_mid_pic2 {
+            bottom: -26%;
+        }        
+        .ac_repair_one_mid_pic3 {
+            bottom: -20%;
+        }
+    }
+    .ac_repair_one_mid_right {
+        h2 {
+            font-size: 1.25rem;
+        }
+        h3 {
+            font-size: 1.25rem;
+        }
+    }
+    .ac_repair_schedule_button {
+        margin-top: 3.5%;
+        button {
+            font-size: 1.18rem;
+        }
+    }
+}
+
+@media (max-width: 675px) {
+    .ac_repair_one_mid_pics {
+        margin-top: .3em;
+        height: 6em;
+    }
+
+}
+
+@media (max-width: 630px) {
+    .ac_repair_one_mid_div {
+        flex-direction: column-reverse;
+    }
+    .ac_repair_one_mid_pics {
+        width: 100%;
+        .ac_repair_one_mid_pic1 {
+            width: 14.4%;
+        }
+        .ac_repair_one_mid_pic2 {
+            width: 21.6%;
+            left: 37%;
+        }
+        .ac_repair_one_mid_pic3 {
+            width: 18.4%;
+        }
+    }
+    .ac_repair_one_mid_right {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 525px) {
+    .ac_repair_one_mid_div {
+        flex-direction: column-reverse;
+    }
+    .ac_repair_one_mid_pics {
+        width: 100%;
+        .ac_repair_one_mid_pic1 {
+            width: 17.28%;
+        }
+        .ac_repair_one_mid_pic2 {
+            width: 25.92%;
+            left: 37%;
+        }
+        .ac_repair_one_mid_pic3 {
+            width: 24%;
+        }
+    }
+    .ac_repair_one_mid_right {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 465px) {
+    .ac_repair_one_mid_pics {
+        height: 5rem;
+    }
+}
+
+@media (max-width: 450px) {
+    .ac_repair_one_mid_pics {
+        transform: translateY(-35px);
+    }
+}
+
+@media (max-width: 370px) {
+    .ac_repair_one_mid_pics {
+        transform: translateY(-55px);
+    }
+}
+
+@media (max-width: 325px) {
+    .ac_repair_one_mid_pics {
+        height: 4.5rem;
+        transform: translateY(-90px);
+
+    }
+}
+
+
+@media (max-width: 300px) {
+    .ac_repair_one_mid_pics {
+        height: 4.3rem;
+    }
+}
+
+//////////////////////////
+//////////////////////////
+////////////////////////// 
+@media (max-width: 1100px) {
+    
+.ac_repair_one_text {
+    font-size: 1.5rem;
+}
+}
+.ac_repair_one_list {
+    margin-bottom: 1%;
+    width: 80%;
+    margin-left: 3.5%;
+    height: 15%;
+    gap: 3%;
+    img {
+        width: 3.3%;
+        margin-top: -3%;
+        margin-left: 0%;
+    }
+}
+
+@media (max-width: 900px) {
+    
+    .ac_repair_one_text {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 865px) {
+    .ac_repair_one_bottom {
+        margin-top:  30%;
+    }
+}
+
+@media (max-width: 800px) {
+    
+    .ac_repair_one_text {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 630px) {
+    .ac_repair_one_bottom {
+        margin-top: 22%;
+        height: 88vh;
+
+    }
+    .ac_repair_one_list {
+        margin-bottom: 10.3%;
+    }
+}
+
+@media (max-width: 550px) {
+    .ac_repair_one_list {
+        margin-bottom: 13.3%;
+    }
+}
+
+@media (max-width: 460px) {
+
+    .ac_repair_one_list {
+        margin-bottom: 20%;
+    }
+}
+
+@media (max-width: 360px) {
+    .ac_repair_one_bottom {
+        height: 120vh;
+    }
+    .ac_repair_one_list {
+        margin-bottom: 25%;
+    }
+    .ac_repair_one_text {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 300px) {
+    .ac_repair_one_bottom {
+        height: 120vh;
+    }
+    .ac_repair_one_text {
+        font-size: .95rem;
+    }
+}
+
+@media (min-width: 631px) {
+    .ac_repair_one_bottom {
+        height: 80vh;
+    }
+    .ac_repair_one_list {
+        margin-bottom: 7%;
+    }
+}
+
+@media (min-width: 901px) {
+    .ac_repair_one_bottom {
+        height: 105vh;
+    }
+    .ac_repair_one_list {
+        margin-bottom: 9%;
+    }
+}
+
+@media (min-width: 1101px) {
+    .ac_repair_one_bottom {
+        height: 130vh;
+        margin-top: 8%;
+    }
+    .ac_repair_one_list {
+        margin-bottom: 6%;
+    }
+}
+
+////////////////////////
+//IS IT TIME TO REPAIR//
+////////////////////////
+
+@media (max-width: 1450px) {
+
+    .ac_repair_one_bottom_top {
+        top: -32%;
+        margin-top: 5%;
+        width: 80%;
+        height: 20%;
+        h1 {
+            margin-bottom: 1.2%;
+            font-size: 2.3rem;
+    
+        }
+        p {
+            font-size: 1.67rem;
+        }
+    }
+    
+}
+
+@media (max-width: 1150px) {
+
+    .ac_repair_one_bottom_top {
+        top: -32%;
+        h1 {
+            margin-bottom: 1.2%;
+            font-size: 2rem;
+    
+        }
+        p {
+            font-size: 1.4rem;
+        }
+    }
+    
+}
+
+
+@media (max-width: 900px) {
+
+    .ac_repair_one_bottom_top {
+        top: -43%;
+        h1 {
+            margin-bottom: 1.2%;
+            font-size: 2rem;
+    
+        }
+        p {
+            font-size: 1.25rem;
+        }
+    }   
+}
+
+@media (max-width: 865px) {
+    .ac_repair_one_bottom_top {
+        top: -38.5%;
+    }
+}
+
+
+@media (max-width: 725px) {
+
+    .ac_repair_one_bottom_top {
+        top: -35.5%;
+        h1 {
+            margin-bottom: 1.2%;
+            font-size: 1.8rem;
+    
+        }
+        p {
+            font-size: 1.1rem;
+        }
+    }   
+}
+
+
+@media (max-width: 630px) {
+
+    .ac_repair_one_bottom_top {
+        top: -27.5%;
+        h1 {
+            margin-bottom: 1.2%;
+            font-size: 1.5rem;
+    
+        }
+        p {
+            font-size: .95rem;
+        }
+    }
+    .ac_repair_one_bottom {
+        padding-top: 3%;
+    }   
+}
+
+@media (max-width: 530px) {
+
+    .ac_repair_one_bottom_top {
+        top: -25%;
+        h1 {
+            font-size: 1.3rem;
+    
+        }
+        .ac_repair_one_bottom {
+            padding-top: 5%;
+        }   
+}
+}
+
+@media (max-width: 460px) {
+
+    .ac_repair_one_bottom_top {
+        h1 {
+            font-size: 1.3rem;
+    
+        }
+        p {
+            font-size: 1.1rem;
+        }
+}
+    .ac_repair_one_bottom {
+        padding-top: 12%;
+    } 
+}
+
+@media (max-width: 420px) {
+    .ac_repair_one_bottom_top {
+        h1 {
+            font-size: 1.2rem;
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    .ac_repair_one_bottom {
+    }
+    
+    .ac_repair_one_bottom_top {
+        top: -25%;
+        h1 {
+            font-size: 1.1rem;
+    
+        }
+    }
+
+}
+
+@media (max-width: 360px) {
+    .ac_repair_one_bottom {
+        padding-top: 18%;
+    }
+    
+    .ac_repair_one_bottom_top {
+        top: -20%;
+        h1 {
+            font-size: 1.05rem;
+    
+        }
+        p {
+            font-size: .95rem;
+        }
+    }
+
+}
+
+@media (max-width: 330px) {
+    .ac_repair_one_bottom_top {
+        h1 {
+            font-size: .95rem;
+    
+        }
+        p {
+            font-size: .9rem;
+        }
+    }
+}
+
+@media (max-width: 300px) {
+    .ac_repair_one_bottom_top {
+        h1 {
+            font-size: .90rem;
+    
+        }
+        p {
+            font-size: .87rem;
+        }
+    }
+}
+
+@media (max-width: 290px) {
+    .ac_repair_one_bottom_top {
+        h1 {
+            font-size: .88rem;
+    
+        }
+        p {
+            font-size: .85rem;
+        }
+    }
+}
+
+////////////////////
+///guarantee box////
+////////////////////
+@media (max-width: 800px) {
+    .guarantee_box {
+        padding-top: 7%;
+        padding-bottom: 0%;
+    }
+}
+
+@media (max-width: 630px) {
+    .guarantee_box {
+        padding-top: 7%;
+        padding-bottom: 23%;
+    }
+}
+
+/////////////////////////
+/////////////////////////
+/////////////////////////
+
+@media (max-width: 1000px) {
+    
+.is_it_time_btn {
+    button {
+        font-size: 1.7rem;
+     }
+}
+
+}
+
+
+@media (max-width: 820px) {
+    .is_it_time_btn {
+        button {
+            font-size: 1.4rem;
+            padding-top: .5%;
+            padding-bottom: .5%;
+            padding-left: 10%;
+            padding-right: 10%;
+         }
+    }
+}
+
+@media (max-width: 630px) {
+    .is_it_time {
+        h1 {
+            font-size: 1.5rem;
+            width: 50%;
+        }
+
+    }
+
+    .is_it_time_btn {
+        button {
+            font-size: 1.1rem;
+            padding-top: 3%;
+            padding-bottom: .5%;
+            padding-left: 15%;
+            padding-right: 15%;
+         }
+    }
+}
+
+@media (max-width: 500px) {
+    .is_it_time {
+        h1 {
+            font-size: 1.5rem;
+            width: 60%;
+        }
+
+    }
+}
+
+@media (max-width: 400px) {
+    .is_it_time {
+        h1 {
+            font-size: 1.2rem;
+            width: 60%;
+        }
+
+    }
+}
+
+@media (max-width: 330px) {
+    .is_it_time {
+        h1 {
+            font-size: 1rem;
+            width: 60%;
+        }
+
+    }
+    .is_it_time_btn {
+        button {
+            font-size: 1rem;
+            padding-top: 3%;
+            padding-bottom: .5%;
+            padding-left: 15%;
+            padding-right: 15%;
+         }
+    }
+}
+
+@media (max-width: 295px) {
+    .is_it_time {
+        h1 {
+            font-size: .95rem;
+            width: 60%;
+        }
+
+    }
+    .is_it_time_btn {
+        button {
+            font-size: 1rem;
+            padding-top: 3%;
+            padding-bottom: .5%;
+            padding-left: 15%;
+            padding-right: 15%;
+         }
+    }
+}

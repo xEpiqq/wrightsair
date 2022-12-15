@@ -1,0 +1,1467 @@
+.ac_repair_one {
+    position: relative;
+    width: 100%;
+    overflow-y: hidden;
+    height: auto;
+}
+
+.orem_banner {
+    background-image: url("../images/service_area_banner.png");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    width: 100%;
+    height: 40vh;
+    margin-top: -8%;
+}
+
+.ac_repair_one_ac {
+    position: absolute;
+    z-index: 1;
+    top: 1.5%;
+    right: 10%;
+    width: 13%;
+    display: flex;
+}
+
+.ac_repair_one_title {
+    margin-top: 2.5%;
+    text-align: center;
+    display: flex;
+    padding-left: 11.25%;
+    width: auto;
+    justify-content: flex-start;
+    h1 {
+        font-size: 3.5rem;    
+        font-family: 'EquitanSans';
+        font-weight: 400;
+        padding: 0;
+        margin: 0;
+        color: rgb(41, 41, 41);
+    }
+}
+
+.orem_one_main {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.ac_repair_one_main_left {
+    padding-left: 11.25%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+
+    h1 {
+        font-family: 'EquitanSans';
+        font-size: 2.8rem;
+        margin: 0;
+        padding: 0;
+    }
+    p {
+        font-family: 'EquitanSans';
+        font-size: 1.8rem;
+        font-weight: 200;
+        margin: 0;
+        padding: 0;
+        margin-top: 1.75%;
+    }
+    span {
+        color: #FF9901;
+    }
+}
+
+.ac_repair_one_main_right {
+    display: flex;
+    align-items: center;
+    width: 35%;
+    margin-left: 10%;
+    img {
+        width: 68%;
+    }
+}
+
+.orem_mid_div {
+    display: flex;
+    width: 100%;
+    height: 9%;
+    margin-top: 10%;
+}
+
+.orem_pics_div {
+    position: relative;
+    display: flex;
+    width: 55%;
+    height: 23vh;
+    background: linear-gradient(180deg, #4E4E4E 0%, #2E2E2E 100%);
+    box-shadow: 7px 7px 4px rgba(0, 0, 0, 0.25);
+    justify-content: center;
+    h1 {
+        color: white;
+        font-family: 'EquitanSans';
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 32%;
+        font-size: 1.75rem;
+        text-align: center;
+    }
+}
+
+.ac_repair_one_mid_pic1 {
+    position: absolute;
+    bottom: -33%;
+    width: 18%;
+    left: 12.5%;
+
+}
+
+.ac_repair_one_mid_pic2 {
+    position: absolute;
+    bottom: -39%;
+    width: 27%;
+    left: 36%;
+}
+
+.ac_repair_one_mid_pic3 {
+    position: absolute;
+    bottom: -33%;
+    width: 25%;
+    left: 68%;
+}
+
+.ac_repair_one_mid_right {
+    padding-top: .5%;
+    width: 45%;
+    height: 100%;
+    display: flex; 
+    flex-direction: column;
+    h2 {
+        text-align: center;
+        margin: 0;
+        font-family: 'EquitanSans';
+        font-size: 2.3rem;
+        font-style: italic;
+
+    }
+    h3 {
+        text-align: center;
+        margin: 0;
+        font-family: 'EquitanSans';
+        font-size: 2.3rem;
+        font-weight: 200;
+    }
+}
+
+.ac_repair_schedule_button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    button {
+        background-color: #FF9F01;
+        border: none;
+        color: white;
+        font-family: 'EquitanSans';
+        font-size: 2rem;
+        font-weight: 700;
+        padding-top: .5%;
+        padding-bottom: .5%;
+        padding-left: 5%;
+        padding-right: 5%;
+        border-radius: .5rem;
+        filter: drop-shadow(0px 8px 0px #FFB335);
+        &:hover {
+            background-color: rgb(254, 165, 22);
+            cursor: pointer;
+        }
+     }
+}
+
+.extra_white_space {
+    width: 100%;
+    height: 0vh;
+    background-color: white;
+}
+
+.orem_bottom {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 120vh;
+    background-color: white;
+    background-image: url("../images/light_ray_bg.svg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    font-family: 'EquitanSans';
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.orem_pic {
+    position: absolute;
+    top: 0%;
+    right: 0;
+    width: 30%;
+    height: 80vh;
+    background: linear-gradient(239.73deg, #373737 31.92%, #2E2E2E 74.31%);
+    box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px 0px 0px 0px;
+    background-image: url("../images/service_area_banner.png");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+
+}
+
+.orem_bottom_top {
+    top: -35%;
+    left: 8%;
+    position: absolute;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: flex-start;
+
+    h1 {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 1.2%;
+        font-size: 2.5rem;
+
+    }
+    p {
+        margin: 0;
+        padding: 0;
+        font-size: 1.8rem;
+        span {
+            color: #FF8C00;
+        }
+    }
+}
+
+.orem_bottom_top_1 {
+    margin-top: 20%;
+} 
+
+.orem_bottom_top_2 {
+    margin-top: 5%;
+}
+
+.orem_bottom_top_3 {
+    margin-top: 10%;
+    h1 {
+        margin-bottom: 3%;
+    }
+}
+
+.orem_bottom_check {
+    display: flex;
+    flex-direction: row;
+    width: 115%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+    
+    img {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    h2 {
+        font-family: 'EquitanSans';
+        margin: 0;
+        font-style: italic;
+        font-size: 1.75rem;
+        color: black;
+        margin-left: 3%;
+        width: 110%;
+        font-weight: 400;
+    }
+    
+}
+
+.ac_repair_one_list {
+    margin-bottom: 1%;
+    width: 80%;
+    margin-left: 3.5%;
+    display: flex;
+    flex-direction: row;
+    height: 15%;
+    align-items: center;
+    gap: 3%;
+    img {
+        width: 3.3%;
+        margin-top: -3%;
+        margin-left: 0%;
+    }
+}
+
+.ac_repair_one_text {
+    display: flex;
+    flex-direction: row;
+    font-family: 'EquitanSans';
+    font-size: 1.8rem;
+    font-weight: 500;
+    span {
+        font-weight: 900;
+    }
+}
+
+.orem_very_bottom {
+    display: flex;
+    flex-direction: column;
+    height: 200vh;
+    background-color: white;
+    margin-top: 8%;
+}
+
+.is_it_time {
+    gap: 5.5%;
+    margin-top: 6%;
+    width: 100%;
+    height: 18%;
+    background: #2E2E2E;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    h1 {
+        color: white;
+        text-align: center;
+    }
+}
+
+.is_it_time_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    button {
+        background-color: #FF9F01;
+        border: none;
+        color: white;
+        font-family: 'EquitanSans';
+        font-size: 2rem;
+        font-weight: 700;
+        padding-top: .5%;
+        padding-bottom: .5%;
+        padding-left: 10%;
+        padding-right: 10%;
+        border-radius: .5rem;
+        filter: drop-shadow(0px 8px 0px #FFB335);
+        &:hover {
+            background-color: rgb(254, 165, 22);
+            cursor: pointer;
+        }
+     }
+}
+
+.guarantee_box {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.ac_services {
+    margin-top: 3%;
+    gap: 5%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 80%;
+    background: linear-gradient(180deg, #2a2a2a 0%, #161616 100%);
+    align-items: center;
+    justify-content: center;
+    .ac_services_title {
+        font-family: 'EquitanSans';
+        font-size: 3rem;
+        letter-spacing: 0.1em;
+        background: linear-gradient(179.25deg, #FF9F01 20.3%, #FFA91B 99.35%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+        margin: 0;
+        padding: 0;
+        margin-top: 2.5%;
+    }
+}
+
+.service_flex {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.ac_service_cards_box {
+    margin-top: -2.5%;
+}
+
+@media (max-width: 1100px) {
+    .orem_bottom {
+        margin-top: 15%;
+    }
+}
+
+@media (max-width: 865px) {
+    .orem_bottom_top {
+        padding-top: 8rem;
+    }
+
+}
+
+@media (max-width: 1350px) {
+    .orem_bottom_check {
+        h2 {
+            font-size: 1.5rem;
+        }
+    }
+}
+
+@media (max-width: 945px) {
+    .orem_bottom_check {
+        img {
+            width: 1.8rem;
+            height: 1.8rem;
+        }
+        h2 {
+            font-size: 1.25rem;
+        }
+    }
+}
+
+@media (max-width: 630px) {
+    .orem_bottom_check {
+        img {
+            width: 1.5rem;
+            height: 1.5rem;
+        }
+        h2 {
+            font-size: 1.1rem;
+        }
+    }
+}
+////////////////////////////
+/////////HEADER TEXT////////
+////////////////////////////
+@media (max-width: 1180px) {
+    .ac_repair_one_main_right {
+        justify-content: center;
+        margin: 0;
+        img {
+            width: 80%;
+        }
+    }
+    .ac_repair_one_main_left {
+        width: 55%;
+        h1 {
+            font-size: 2.3rem;
+        }
+        p {
+            font-family: 'EquitanSans';
+            font-size: 1.8rem;
+            font-weight: 200;
+            margin: 0;
+            padding: 0;
+            margin-top: 1.75%;
+        }
+}
+}
+
+@media (max-width: 1050px) {
+    .ac_repair_one_main_left {
+        padding-left: 7%;
+        p {
+            font-size: 1.5rem;
+
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    .ac_repair_one_main_left {
+        padding-top: 0;
+        margin-top: 0;
+        padding-left: 5.5%;
+        h1 {
+            font-size: 2rem;
+        }
+        p {
+            font-size: 1.2rem;
+
+        }
+    }
+    .ac_repair_one_main_right {
+        padding-left: 2%;
+    }
+}
+
+@media (max-width: 750px) {
+    .ac_repair_one_main_left {
+        padding-left: 5.5%;
+        h1 {
+            font-size: 1.7rem;
+        }
+        p {
+            font-size: .95rem;
+
+        }
+    }
+    .ac_repair_one_main_right {
+        padding-left: 2%;
+    }
+}
+
+@media (max-width: 1000px) {
+        
+    .ac_repair_one_title {
+        margin-top: 7rem;
+    }
+}
+
+@media (max-width: 900px) {
+        
+    .ac_repair_one_title {
+        margin-top: 2rem;
+    }
+}
+////////////////////////////
+/////////PAGE TITLE/////////
+////////////////////////////
+@media (max-width: 1250px) {
+    .ac_repair_one_title {
+        h1 {
+            font-size: 3rem;
+        }
+    }
+}
+
+@media (max-width: 1050px) {
+    .ac_repair_one_title {
+        padding-left: 7%;        
+        h1 {
+            font-size: 3rem;
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    .ac_repair_one_title {
+        padding-left: 5.5%;        
+        h1 {
+            font-size: 2.5rem;
+        }
+    }
+    .orem_one_main {
+        margin-top: 3%;
+    }
+}
+
+@media (max-width: 900px) {
+    .ac_repair_one_title {
+        h1 {
+            font-size: 2rem;
+        }
+    }
+}
+////////////////////////////
+//////ac_repair_main////////
+////////////////////////////
+
+@media (max-width: 630px) {
+    .orem_one_main {
+        flex-direction: column-reverse;
+    }
+    .ac_repair_one_title {
+        margin-top: 6%;
+        margin-bottom: 5%;
+        padding: 0;
+        align-items: center;
+        justify-content: center;
+        h1 {
+            
+        }
+    }
+    .ac_repair_one_main_right {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 5%;
+        img {
+            width: 12rem;
+        }
+    }
+    .ac_repair_one_main_left {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        p {
+            width: 75%;
+            text-align: center;
+        }
+    }
+}
+
+@media (max-width: 460px) {
+    .ac_repair_one_main_left {
+        h1 {
+            font-size: 1.3rem;
+        }
+        p {
+            font-size: 1.2rem;
+            margin-top: 5%;
+        }
+    }
+}
+
+@media (max-width: 420px) {
+    .ac_repair_one_title {
+        margin-bottom: 6%;
+        h1 {
+            font-size: 1.75rem;
+        }
+    }
+    .ac_repair_one_main_right {
+        img {
+            margin-bottom: 2%;
+        }
+    }
+}
+
+
+
+@media (max-width: 400px) {
+    .ac_repair_one_title {
+        margin-bottom: 0%;
+        h1 {
+            font-size: 1.75rem;
+        }
+    }
+}
+
+@media (max-width: 360px) {
+    .orem_bottom {
+        padding-bottom: 0rem;
+        margin-bottom: 0rem;
+    }
+    .ac_repair_one_title {
+        margin-bottom: 0%;
+        h1 {
+            font-size: 1.5rem;
+        }
+    }
+    .orem_very_bottom {
+    margin-top: 0%;
+}
+
+}
+
+@media (max-width: 350px) {
+    .ac_repair_one_main_left {
+        h1 {
+            font-size: 1.1rem;
+        }
+        p {
+            font-size: 1rem;
+        }
+    }
+}
+
+@media (max-width: 310px) {
+    .ac_repair_one_title {
+        margin-bottom: 0%;
+        h1 {
+            font-size: 1.4rem;
+        }
+    }
+}
+
+@media (max-width: 305px) {
+    .ac_repair_one_main_left {
+        h1 {
+            font-size: 1rem;
+        }
+    }
+}
+
+////////////////////////////
+////////ac top pic//////////
+////////////////////////////
+
+@media (max-width: 1250px) {
+    .ac_repair_one_ac {
+        top: 2%;
+        right: 10%;
+        width: 13%;
+    }
+}
+
+@media (max-width: 1150px) {
+    .ac_repair_one_ac {
+        top: 3%;
+        right: 10%;
+        width: 13%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .ac_repair_one_ac {
+        top: 4%;
+        right: 10%;
+        width: 16%;
+    }
+}
+
+@media (max-width: 900px) {
+    .ac_repair_one_ac {
+        top: 1%;
+        right: 10%;
+        width: 13%;
+    }
+    .orem_banner {
+        width: 100%;
+        height: 26vh;
+        margin-top: -8%;
+    }
+}
+
+@media (max-width: 800px) {
+    .ac_repair_one_ac {
+        top: 2%;
+        right: 10%;
+        width: 13%;
+    }
+    .orem_banner {
+        width: 100%;
+        height: 26vh;
+        margin-top: -8%;
+    }
+}
+
+@media (max-width: 700px) {
+    .ac_repair_one_ac {
+        top: 2%;
+        right: 10%;
+        width: 15%;
+    }
+}
+
+@media (max-width: 630px) {
+    .ac_repair_one_ac {
+        top: .5%;
+        right: 2%;
+    }
+}
+
+@media (max-width: 560px) {
+    .ac_repair_one_ac {
+        top: .6%;
+        right: 2%;
+        width: 5.5rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .ac_repair_one_ac {
+        top: .85%;
+        right: 2%;
+        width: 5rem;
+    }
+}
+
+/////////////////////////
+/////////////////////////
+/////////////////////////
+@media (max-width: 1100px ) {
+    .orem_pics_div {
+        height: 21vh;
+    }
+    .ac_repair_one_mid_right {
+        h2 {
+            font-size: 2rem;
+        }
+        h3 {
+            font-size: 2rem;
+        }
+    }
+    .ac_repair_schedule_button {
+        margin-top: 3.5%;
+        button {
+            font-size: 1.75rem;
+        }
+    }
+}
+
+@media (max-width: 1000px ) {
+    .orem_pics_div {
+        height: 19vh;
+    }
+}
+
+@media (max-width: 950px) {
+    .ac_repair_one_mid_right {
+        h2 {
+            font-size: 1.75rem;
+        }
+        h3 {
+            font-size: 1.75rem;
+        }
+    }
+    .ac_repair_schedule_button {
+        margin-top: 3.5%;
+        button {
+            font-size: 1.75rem;
+        }
+    }
+}
+
+@media (max-width: 865px) {
+    .orem_pics_div {
+        height: 7.5em;
+        .ac_repair_one_mid_pic1 {
+            bottom: -20%;
+        }        
+        .ac_repair_one_mid_pic2 {
+            bottom: -26%;
+        }        
+        .ac_repair_one_mid_pic3 {
+            bottom: -20%;
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    .ac_repair_one_mid_right {
+        h2 {
+            font-size: 1.5rem;
+        }
+        h3 {
+            font-size: 1.5rem;
+        }
+    }
+    .ac_repair_schedule_button {
+        margin-top: 3.5%;
+        button {
+            font-size: 1.4rem;
+        }
+    }
+}
+
+@media (max-width: 750px) {
+    .orem_pics_div {
+        height: 6.5em;
+        .ac_repair_one_mid_pic1 {
+            bottom: -20%;
+        }        
+        .ac_repair_one_mid_pic2 {
+            bottom: -26%;
+        }        
+        .ac_repair_one_mid_pic3 {
+            bottom: -20%;
+        }
+    }
+    .ac_repair_one_mid_right {
+        h2 {
+            font-size: 1.25rem;
+        }
+        h3 {
+            font-size: 1.25rem;
+        }
+    }
+    .ac_repair_schedule_button {
+        margin-top: 3.5%;
+        button {
+            font-size: 1.18rem;
+        }
+    }
+}
+
+@media (max-width: 675px) {
+    .orem_pics_div {
+        margin-top: .3em;
+        height: 6em;
+    }
+
+}
+
+@media (max-width: 630px) {
+    .orem_mid_div {
+        flex-direction: column-reverse;
+    }
+    .orem_pics_div {
+        width: 100%;
+        margin-top: 7rem;
+        .ac_repair_one_mid_pic1 {
+            width: 14.4%;
+        }
+        .ac_repair_one_mid_pic2 {
+            width: 21.6%;
+            left: 37%;
+        }
+        .ac_repair_one_mid_pic3 {
+            width: 18.4%;
+        }
+    }
+    .ac_repair_one_mid_right {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 525px) {
+    .orem_mid_div {
+        flex-direction: column-reverse;
+    }
+    .orem_pics_div {
+        width: 100%;
+        .ac_repair_one_mid_pic1 {
+            width: 17.28%;
+        }
+        .ac_repair_one_mid_pic2 {
+            width: 25.92%;
+            left: 37%;
+        }
+        .ac_repair_one_mid_pic3 {
+            width: 24%;
+        }
+    }
+    .ac_repair_one_mid_right {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 465px) {
+    .orem_pics_div {
+        height: 5rem;
+    }
+}
+
+@media (max-width: 450px) {
+    .orem_pics_div {
+        transform: translateY(-35px);
+    }
+}
+
+@media (max-width: 370px) {
+    .orem_pics_div {
+        transform: translateY(0px);
+    }
+}
+
+@media (max-width: 325px) {
+    .orem_pics_div {
+        height: 4.5rem;
+        transform: translateY(0px);
+
+    }
+}
+
+
+@media (max-width: 300px) {
+    .orem_pics_div {
+        height: 4.3rem;
+    }
+}
+
+//////////////////////////
+//////////////////////////
+////////////////////////// 
+@media (max-width: 1100px) {
+    
+.ac_repair_one_text {
+    font-size: 1.5rem;
+}
+}
+.ac_repair_one_list {
+    margin-bottom: 1%;
+    width: 80%;
+    margin-left: 3.5%;
+    height: 15%;
+    gap: 3%;
+    img {
+        width: 3.3%;
+        margin-top: -3%;
+        margin-left: 0%;
+    }
+}
+
+@media (max-width: 900px) {
+    
+    .ac_repair_one_text {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 865px) {
+    .orem_bottom { 
+        margin-top:  5rem;
+        padding-bottom: 8rem;
+    }
+}
+
+@media (max-width: 800px) {
+    
+    .ac_repair_one_text {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 750px) {
+    .orem_bottom {
+    }
+}
+
+@media (max-width: 630px) {
+    .orem_bottom {
+        margin-top: 8%;
+        height: 88vh;
+        padding-bottom: 0rem;
+
+    }
+    .ac_repair_one_list {
+        margin-bottom: 10.3%;
+    }
+}
+
+@media (max-width: 550px) {
+    .ac_repair_one_list {
+        margin-bottom: 13.3%;
+    }
+}
+
+@media (max-width: 460px) {
+    .orem_bottom {
+        height: 100vh;
+    }
+    .ac_repair_one_list {
+        margin-bottom: 20%;
+    }
+}
+
+@media (max-width: 360px) {
+    .orem_bottom {
+        height: 100vh;
+    }
+    .ac_repair_one_list {
+        margin-bottom: 25%;
+    }
+    .ac_repair_one_text {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 470px) {
+    .orem_bottom { 
+        margin-top: 5rem;
+        padding-bottom: 5rem;
+    }
+}
+
+@media (max-width: 300px) {
+    .orem_bottom {
+        height: 100vh;
+    }
+    .ac_repair_one_text {
+        font-size: .95rem;
+    }
+}
+
+@media (min-width: 631px) {
+    .orem_bottom {
+        height: 80vh;
+    }
+    .ac_repair_one_list {
+        margin-bottom: 7%;
+    }
+}
+
+@media (min-width: 901px) {
+    .orem_bottom {
+        height: 105vh;
+    }
+    .ac_repair_one_list {
+        margin-bottom: 9%;
+    }
+}
+
+@media (min-width: 1101px) {
+    .orem_bottom {
+        height: 95vh;
+        margin-top: 8%;
+    }
+    .ac_repair_one_list {
+        margin-bottom: 6%;
+    }
+}
+
+////////////////////////
+//IS IT TIME TO REPAIR//
+////////////////////////
+
+@media (max-width: 1450px) {
+
+    .orem_bottom_top {
+        top: -32%;
+        margin-top: 5%;
+        width: 50%;
+        height: 20%;
+        h1 {
+            margin-bottom: 1.2%;
+            font-size: 2.3rem;
+    
+        }
+        p {
+            font-size: 1.67rem;
+        }
+    }
+    
+}
+
+@media (max-width: 1150px) {
+
+    .orem_bottom_top {
+        top: -32%;
+        h1 {
+            margin-bottom: 1.2%;
+            font-size: 2rem;
+    
+        }
+        p {
+            font-size: 1.4rem;
+        }
+    }
+    
+}
+
+
+@media (max-width: 900px) {
+
+    .orem_bottom_top {
+        top: -43%;
+        h1 {
+            margin-bottom: 1.2%;
+            font-size: 2rem;
+    
+        }
+        p {
+            font-size: 1.25rem;
+        }
+    }   
+}
+
+@media (max-width: 865px) {
+    .orem_bottom_top {
+        top: -38.5%;
+    }
+}
+
+
+@media (max-width: 725px) {
+
+    .orem_bottom_top {
+        top: -30.5%;
+        h1 {
+            margin-bottom: 1.2%;
+            font-size: 1.8rem;
+    
+        }
+        p {
+            font-size: 1.1rem;
+        }
+    }   
+}
+
+
+@media (max-width: 630px) {
+
+    .orem_bottom_top {
+        top: -27.5%;
+        h1 {
+            margin-bottom: 1.2%;
+            font-size: 1.5rem;
+    
+        }
+        p {
+            font-size: .95rem;
+        }
+    }
+    .orem_bottom {
+        padding-top: 3%;
+    }   
+}
+
+@media (max-width: 530px) {
+
+    .orem_bottom_top {
+        top: -25%;
+        h1 {
+            font-size: 1.3rem;
+    
+        }
+        .orem_bottom {
+            padding-top: 5%;
+        }   
+}
+}
+
+@media (max-width: 460px) {
+
+    .orem_bottom_top {
+        top: -25%;
+        h1 {
+            font-size: 1.3rem;
+    
+        }
+        p {
+            font-size: 1.1rem;
+        }
+}
+    .orem_bottom {
+        padding-top: 12%;
+    } 
+}
+
+@media (max-width: 420px) {
+    .orem_bottom_top {
+        h1 {
+            font-size: 1.2rem;
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    .orem_bottom {
+        padding-top: 18%;
+    }
+    
+    .orem_bottom_top {
+        top: -25%;
+        h1 {
+            font-size: 1.1rem;
+    
+        }
+    }
+
+}
+
+@media (max-width: 360px) {
+    .orem_bottom {
+        padding-top: 18%;        
+    }
+    
+    .orem_bottom_top {
+        top: -20%;
+        h1 {
+            font-size: 1.05rem;
+    
+        }
+        p {
+            font-size: .95rem;
+        }
+    }
+
+}
+
+@media (max-width: 330px) {
+    .orem_bottom_top {
+        h1 {
+            font-size: .95rem;
+    
+        }
+        p {
+            font-size: .9rem;
+        }
+    }
+}
+
+@media (max-width: 300px) {
+    .orem_bottom_top {
+        h1 {
+            font-size: .90rem;
+    
+        }
+        p {
+            font-size: .87rem;
+        }
+    }
+}
+
+@media (max-width: 290px) {
+    .orem_bottom_top {
+        h1 {
+            font-size: .88rem;
+    
+        }
+        p {
+            font-size: .85rem;
+        }
+    }
+}
+
+////////////////////
+///guarantee box////
+////////////////////
+@media (max-width: 800px) {
+    .guarantee_box {
+        padding-top: 7%;
+        padding-bottom: 0%;
+    }
+}
+
+@media (max-width: 630px) {
+    .guarantee_box {
+        padding-top: 7%;
+        padding-bottom: 23%;
+    }
+}
+
+/////////////////////////
+/////////////////////////
+/////////////////////////
+
+@media (max-width: 1000px) {
+    
+.is_it_time_btn {
+    button {
+        font-size: 1.7rem;
+     }
+}
+
+}
+
+
+@media (max-width: 820px) {
+    .is_it_time_btn {
+        button {
+            font-size: 1.4rem;
+            padding-top: .5%;
+            padding-bottom: .5%;
+            padding-left: 10%;
+            padding-right: 10%;
+         }
+    }
+}
+
+@media (max-width: 630px) {
+    .is_it_time {
+        h1 {
+            font-size: 1.5rem;
+            width: 50%;
+        }
+
+    }
+
+    .is_it_time_btn {
+        button {
+            font-size: 1.1rem;
+            padding-top: 3%;
+            padding-bottom: .5%;
+            padding-left: 15%;
+            padding-right: 15%;
+         }
+    }
+}
+
+@media (max-width: 500px) {
+    .is_it_time {
+        h1 {
+            font-size: 1.5rem;
+            width: 60%;
+        }
+
+    }
+}
+
+@media (max-width: 400px) {
+    .is_it_time {
+        h1 {
+            font-size: 1.2rem;
+            width: 60%;
+        }
+
+    }
+}
+
+@media (max-width: 330px) {
+    .is_it_time {
+        h1 {
+            font-size: 1rem;
+            width: 60%;
+        }
+
+    }
+    .is_it_time_btn {
+        button {
+            font-size: 1rem;
+            padding-top: 3%;
+            padding-bottom: .5%;
+            padding-left: 15%;
+            padding-right: 15%;
+         }
+    }
+}
+
+@media (max-width: 295px) {
+    .is_it_time {
+        h1 {
+            font-size: .95rem;
+            width: 60%;
+        }
+
+    }
+    .is_it_time_btn {
+        button {
+            font-size: 1rem;
+            padding-top: 3%;
+            padding-bottom: .5%;
+            padding-left: 15%;
+            padding-right: 15%;
+         }
+    }
+}
+
+//////////////////////////////
+
+@media (max-width: 1450px) {
+    .orem_pics_div {
+        h1 {
+            font-size: 1.5rem;
+        }
+    }
+}
+
+@media (max-width: 1250px) {
+    .orem_pics_div {
+        h1 {
+            font-size: 1.3rem;
+        }
+    }
+}
+
+@media (max-width: 620px) {
+    .ac_services {
+        margin-top: 0%;
+        gap: 5%;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 90%;
+        background: linear-gradient(180deg, #2a2a2a 0%, #161616 100%);
+        align-items: center;
+        justify-content: center;
+        .ac_services_title {
+            font-family: 'EquitanSans';
+            font-size: 2rem;
+        }
+    }
+}
